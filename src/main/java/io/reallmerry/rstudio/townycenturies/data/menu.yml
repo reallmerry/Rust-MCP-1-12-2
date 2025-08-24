@@ -1,0 +1,278 @@
+menu:
+  title: "Выбор века"
+  size: 54
+  filler:
+    enabled: true
+    material: BLACK_STAINED_GLASS_PANE
+    name: " "
+
+ages:
+  PRIMITIVE:
+    slot: 11
+    material: WOODEN_AXE
+    name: "&bПервобытное время"
+    enchanted: false
+    price: 0
+    resources: {}
+    lore:
+      - "&7Деревянные инструменты, костёр, верстак, печь, сундук, кожаная броня"
+
+  STONE:
+    slot: 12
+    material: STONE_PICKAXE
+    name: "&bКаменный век"
+    enchanted: false
+    price: 0
+    resources:
+      STICK: 64
+      TORCH: 16
+      COBBLESTONE: 128
+      GRAVEL: 8
+      DIRT: 16
+      OAK_LOG: 32
+      SAND: 16
+      FLINT: 4
+      CRAFTING_TABLE: 16
+      FURNACE: 8
+      LEATHER: 4
+      STRING: 8
+    lore:
+      - "&7Шерстяная броня, бочка, кожаная конская броня, лодки, поводок, седло, удочка, каменные инструменты"
+
+  IRON:
+    slot: 13
+    material: IRON_PICKAXE
+    name: "&bЖелезный век"
+    enchanted: false
+    price: 0
+    resources:
+      OAK_LOG: 64
+      SPRUCE_LOG: 32
+      DIORITE: 32
+      ANDESITE: 64
+      WHEAT: 128
+      MELON: 64
+      BEETROOT: 64
+      POTATO: 32
+      PUMPKIN: 15
+      MELON_BLOCK: 15
+      STONE: 128
+      COBBLESTONE: 256
+      COAL: 16
+      SALMON: 8
+      FURNACE: 32
+      CRAFTING_TABLE: 70
+      GRANITE: 128
+      CLAY: 35
+    lore:
+      - "&7Железные и золотые инструменты, конская броня, стол лучника, лук, компостница, щит, рамка, книги, кафедра, книжная полка, книга с пером, черепаший шлем"
+
+  EARLY_MEDIEVAL:
+    slot: 14
+    material: SHIELD
+    name: "&bРаннее средневековье"
+    enchanted: false
+    price: 0
+    resources:
+      OAK_LOG: 128
+      SPRUCE_LOG: 128
+      JUNGLE_LOG: 128
+      DARK_OAK_LOG: 128
+      STICK: 512
+      CRAFTING_TABLE: 70
+      FURNACE: 128
+      BOOKSHELF: 8
+      IRON_INGOT: 8
+      COAL: 16
+      APPLE: 10
+      CARROT: 16
+      STONE: 128
+      COBBLESTONE: 512
+      CLAY: 70
+      GRAVEL: 50
+      FLINT: 16
+      WHEAT: 256
+      SWEET_BERRIES: 128
+      MUSHROOM_STEW: 16
+      CHARCOAL: 32
+      PUFFERFISH: 8
+      COOKIE: 128
+      BEETROOT: 128
+      GRANITE: 128
+      ANDESITE: 128
+      DIORITE: 256
+      EMERALD: 4
+      BREAD: 32
+      GOLD_INGOT: 8
+    lore:
+      - "&7Алмазная броня и инструменты, конская броня, колокол, люки, компас, карты, арбалет, наковальня, фонари, картины"
+
+  CLASSIC_MEDIEVAL:
+    slot: 15
+    material: ANVIL
+    name: "&bКлассическое средневековье"
+    enchanted: false
+    price: 0
+    resources:
+      OAK_LOG: 256
+      SPRUCE_LOG: 256
+      STICK: 1024
+      DRIED_KELP_BLOCK: 50
+      ANDESITE: 500
+      DIORITE: 500
+      GRANITE: 500
+      COBBLESTONE: 800
+      SAND: 1024
+      ENDER_PEARL: 32
+      APPLE: 32
+      WHEAT: 512
+      BEETROOT: 512
+      CARROT: 512
+      COOKIE: 256
+      GRASS_BLOCK: 256
+      COAL: 32
+      IRON_INGOT: 32
+      DIAMOND: 16
+      CROSSBOW: 3
+      SHIELD: 5
+      GOLDEN_APPLE: 1
+      BONE_MEAL: 64
+      OBSIDIAN: 64
+    lore:
+      - "&7Воронка, раздатчик, зельеварка, чар. стол, энд-сундук, якорь возрождения, редстоун механизмы"
+
+  LATE_MEDIEVAL:
+    slot: 16
+    material: DIAMOND_SWORD
+    name: "&bПозднее средневековье "
+    enchanted: false
+    price: 0
+    resources:
+      POPPY: 64
+      CORNFLOWER: 64
+      WHEAT: 256
+      BREAD: 64
+      OAK_LOG: 1024
+      JUNGLE_LOG: 1024
+      DARK_OAK_LOG: 512
+      STICK: 500
+      PISTON: 16
+      CAULDRON: 4
+      LOOM: 12
+      BARREL: 128
+      STONE: 512
+      GRANITE: 512
+      ANDESITE: 256
+      DIORITE: 256
+      SAND: 512
+      GLASS: 128
+      CLAY: 300
+      GRAVEL: 240
+      COD: 30
+      SALMON: 20
+      POTATO: 100
+      CARROT: 100
+      ENCHANTED_GOLDEN_APPLE: 1
+      OBSIDIAN: 52
+      COAL: 30
+      IRON_INGOT: 25
+      LAPIS_LAZULI: 16
+      DIAMOND: 8
+      ENCHANTING_TABLE: 1
+      SNOW_BLOCK: 120
+    lore:
+      - "&7Незерит, редстоун механизмы, взрывчатка, рельсы, вагонетки"
+
+  RENAISSANCE:
+    slot: 19
+    material: WRITABLE_BOOK
+    name: "&bЭпоха Возрождения "
+    enchanted: false
+    price: 30
+    resources:
+      BAMBOO: 500
+      BEETROOT: 500
+      OAK_LOG: 500
+      SPRUCE_LOG: 500
+      SAND: 500
+      GRANITE: 500
+      ANDESITE: 500
+      DIORITE: 500
+      STONE: 250
+      COBBLESTONE: 250
+      CRAFTING_TABLE: 250
+      FURNACE: 250
+      GLASS: 250
+      WHITE_WOOL: 250
+      ENCHANTED_GOLDEN_APPLE: 3
+      REDSTONE: 64
+      COAL: 64
+      COOKED_COD: 32
+      COOKED_SALMON: 16
+      OBSIDIAN: 64
+      BRICKS: 64
+      APPLE: 12
+      BARREL: 200
+      SNOW_BLOCK: 200
+    lore:
+      - "&7Доступ к зданию, открывающему топ крафты"
+
+  MODERN:
+    slot: 20
+    material: REDSTONE_BLOCK
+    name: "&aНовое время"
+    enchanted: false
+    price: 100
+    resources:
+      GLASS: 500
+      SAND: 500
+      OAK_LOG: 2000
+      BRICKS: 500
+      ENCHANTED_GOLDEN_APPLE: 5
+      IRON_BLOCK: 10
+      DIAMOND: 12
+      EMERALD: 16
+      PODZOL: 49
+      COMPOSTER: 11
+      SHIELD: 8
+      ENCHANTING_TABLE: 2
+      BOOKSHELF: 30
+      FLOWER_POT: 59
+      GRASS: 64
+      PUFFERFISH: 7
+      POPPY: 36
+      DANDELION: 29
+      BARREL: 400
+      CRAFTING_TABLE: 360
+      HAY_BLOCK: 128
+      CAKE: 13
+      BRICK: 32
+      WHITE_WOOL: 64
+      SNOW_BLOCK: 128
+      SCAFFOLDING: 200
+      FLETCHING_TABLE: 16
+      CARTOGRAPHY_TABLE: 13
+    lore:
+      - "&7Доступ к зданию, создающему атомное топливо"
+
+  ATOMIC:
+    slot: 21
+    material: NETHERITE_BLOCK
+    name: "&dАтомный век"
+    enchanted: false
+    price: 250
+    resources:
+      NUCLEAR_FUEL: 1
+      ENCHANTED_GOLDEN_APPLE: 5
+      DIAMOND: 30
+      EMERALD: 30
+      ENCHANTING_TABLE: 7
+      GOLD_INGOT: 30
+      REDSTONE: 80
+      IRON_BLOCK: 5
+      POPPY: 200
+      DANDELION: 160
+      COAL: 52
+      CLOCK: 16
+    lore:
+      - "&7Покупка транспортных средств - /veh"
