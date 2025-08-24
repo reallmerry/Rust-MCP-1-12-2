@@ -1,0 +1,38 @@
+# Режим ограничений:
+# gated-only  – блокируем только предметы, явно привязанные к эпохам
+# whitelist   – разрешаем только предметы, явно разрешённые эпохой и раньше
+policy: gated-only
+
+# Век, с которого начинают все новые города
+default-age: PRIMITIVE
+
+messages:
+  usage: "исп %label% set get list reload"
+  usage-get: "использование: /ages get <город>"
+  usage-set: "использование: /ages set <город> <век>"
+  usage-next: ""
+  usage-mode: ""
+  no-perm: "нет прав"
+  unknown-age: "неизвестный век %age%"
+  view-town: "город %town% находится в веке: %age%"
+  list-ages: "порядок веков: %ages% "
+  set-success: "век  города %town% изменён: %old% → %age%"
+  next-success: "улучшен век города %town% с %from% до  %to%"
+  next-denied: "повышение отклонено валидатором< (<gray>%from% → %to%</gray>) <yellow>%town%</yellow>"
+  next-max: "%town% уже на максимальном веке %age%"
+  no-service: ""
+  mode-changed: "мод изменён на %mode%"
+  reloaded: "конфигурация перезагружена"
+  gated-list: "Под контролем: %materials%"
+  craft-denied: "этот предмет недоступен в вашей эпохе. (нужно: <yellow>%required%</yellow>)"
+
+# Переопределения доступности предметов по эпохам (опционально)
+# Позволяет добавить предметы в определённый век или сдвинуть их "вперёд".
+overrides:
+  CLASSIC_MEDIEVAL:
+    allow:
+      - TNT
+      - REDSTONE
+  LATE_MEDIEVAL:
+    allow:
+      - DIAMOND_BLOCK

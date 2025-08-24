@@ -1,0 +1,19 @@
+name: TownyCenturies
+version: '${version}'
+main: io.reallmerry.rstudio.townycenturies.TownyCenturies
+api-version: '1.16'
+depend: [Towny]
+authors: [reallmerry]
+description: zakaz #1
+commands:
+  ages:
+    description: Manage and view town ages.
+    usage: /ages <get|list|set|next|mode|reload>
+    aliases: [age, townage, townages]
+permissions:
+  ages.view:
+    description: View ages
+    default: true
+  ages.admin:
+    description: Admin actions
+    default: op
